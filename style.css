@@ -1,0 +1,114 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Smooch+Sans&display=swap');
+
+
+/*General style*/
+* {
+    box-sizing: border-box;
+    background-color: #D4D6D6;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header*/
+header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 10px 225px;
+}
+
+h1 {
+    font-variant: small-caps;
+    word-spacing: 15px;
+}
+
+/*Navigation bar*/
+nav {
+    width: 80%;
+    margin-right: 350px;
+    border-bottom: 1px solid black;
+}
+
+.nav_links {
+    float: right;
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    padding 0;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    list-style: none;
+    font-size: 125%;
+    font-weight: 400;
+    color: #D4D6D6;
+    text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+
+.nav_button:hover {
+    background-color:rgba(0, 0, 0,);
+}
+/*END NAV BAR*/
+/*END HEADER*/
+
+/*Body Section*/
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutme {
+    width: 100%;
+    display: flex;
+    padding: 10px 225px;
+    border-bottom: 1px solid black;
+}
+
+
+/*Id's section*/
+#name {
+    float: left;
+    font-size: 200%;
+    font-weight: 900;
+    display: block;
+    text-align: center;  
+}
+
+#me {
+    display: block;
+    max-width: 600px;
+    max-height: 900px;
+    margin-top: auto;
+    margin-left: 100px;
+    width: 50%;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+#BtnA {
+}
+
+#BtnW {
+}
+
+#BtnC {
+}
