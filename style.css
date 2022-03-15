@@ -95,10 +95,15 @@ p {
 .aboutme {
     display: flex;
     flex-flow: row wrap;
+    flex-shrink: 2;
     justify-content: space-between;
     background: transparent;
-    padding: 10px 225px;
+    padding: 10px 110px;
     border-bottom: 1px solid black;
+}
+
+.aboutflex {
+    width: auto;
 }
 
 .aboutimage {
@@ -119,13 +124,17 @@ p {
 .work {
     display: flex;
     flex-flow: row wrap;
+    flex-shrink: 2;
     justify-content: space-between;
     background: transparent;
     padding: 10px 110px;
     border-bottom: 1px solid black;
 }
 
-.worktext {}
+.work h4 {
+    display: flex;
+    width: auto;
+}
 
 .bigwork{
     display: flex;
@@ -203,17 +212,22 @@ footer {
 /*MEDIA SECTION FOR OTHER DEVICES*/
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
+    .workimages {
+        max-width: 320px;
+    }
 
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
+    .workimages {
+        max-width: 480px;
+    }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    .workimages {
+        max-width: 768px;
+    }
 
-}
-
-@media only screen and (min-width: 992px){
-    
 }
