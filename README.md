@@ -1,1 +1,2 @@
 # Portfolio
+This is a website portfolio for Drew Zinck showing his abilities and skills as a web developer he gained from his time at the University of Arizona Boot Camp. This started as a homework assignment and will turn into a full blown Portfolio as time goes on.
