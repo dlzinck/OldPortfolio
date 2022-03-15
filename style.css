@@ -29,6 +29,7 @@ h1 {
 /*Navigation bar*/
 nav {
     width: 80%;
+    margin-bottom: 0;
     margin-right: 350px;
     border-bottom: 1px solid black;
 }
@@ -43,17 +44,11 @@ nav {
     display: inline-block;
 }
 
-.nav_links li a {
-    transition: all 0.3 ease 0s;
-}
-
 .nav_button {
     padding: 10px 20px;
     border: none;
-    background: none;
-    padding 0;
+    background-color: #D4D6D6;
     cursor: pointer;
-    transition: all 0.3 ease 0s;
     list-style: none;
     font-size: 125%;
     font-weight: 400;
@@ -77,44 +72,115 @@ body {
 
 h2 {
     font-size: 125%;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 45%;
+    background: transparent;
 }
 
 h4 {
     font-size: 90%;
-    position: absolute;
-    top: 25%;
-    left: 45%;
+    background: transparent;
 }
+
 
 p {
     font-size: 75%;
-    position: absolute;
-    top: 50%;
-    left: 45%;
+    background: transparent;
 }
+
 
 /*About Me Section*/
 .aboutme {
-    width: 100%;
     display: flex;
-    position: relative;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: transparent;
     padding: 10px 225px;
     border-bottom: 1px solid black;
 }
+
+.aboutimage {
+    display: flex;
+    margin: auto;
+ }
+
+ .aboutimage img {
+    display: block;
+    max-width: 500px;
+    max-height: 500px;   
+    border: 2px solid #000000;
+    border-radius: 50%;
+ }
+
 
 /*Work Section*/
-
 .work {
-    width: 100%;
     display: flex;
-    position: relative;
-    padding: 10px 225px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 110px;
     border-bottom: 1px solid black;
 }
+
+.worktext {}
+
+.bigwork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigwork img {
+    border: 2px solid black;
+}
+
+.smallwork{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.smallworkimg li {
+    list-style: none;
+    display: inline-block;
+}
+
+.smallworkimg img {
+    display: inline-block;
+    max-width: 260px;
+    border: 2px solid black;
+}
+
+#hrp {
+    margin-left: 120px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    display: flex;
+    padding: 10px 225px;
+}
+.contact {
+    width: 80%;
+}
+
+
+.contact li {
+    list-style: none;
+    display: inline-block;
+}
+ .contactlinks {
+    list-style: none;
+    text-decoration: none;
+ }
+
+ .footerbutton {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+
+ }
 
 
 /*Id's section*/
@@ -125,24 +191,3 @@ p {
     display: block;
     text-align: center;  
 }
-
-#me {
-    display: block;
-    max-width: 600px;
-    max-height: 900px;
-    margin-top: auto;
-    margin-left: 100px;
-    width: 50%;
-    border: 2px solid #000000;
-    border-radius: 50%;
-}
-
-#BtnA {
-}
-
-#BtnW {
-}
-
-#BtnC {
-}
-
