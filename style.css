@@ -57,6 +57,10 @@ nav {
 }
 
 .nav_button:hover {
+    color: #000000;
+}
+
+.nav_button:hover {
     background-color:rgba(0, 0, 0,);
 }
 /*END NAV BAR*/
