@@ -133,6 +133,10 @@ p {
     border: 2px solid black;
 }
 
+.bigwork img:hover {
+    opacity: .5;
+}
+
 .smallwork{
     display: flex;
     align-items: flex-end;
@@ -190,4 +194,22 @@ footer {
     font-weight: 900;
     display: block;
     text-align: center;  
+}
+
+/*MEDIA SECTION FOR OTHER DEVICES*/
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media only screen and (min-width: 992px){
+    
 }
