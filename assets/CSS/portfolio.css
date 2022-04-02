@@ -4,10 +4,9 @@
 /*General style*/
 * {
     box-sizing: border-box;
-    background-color: #D4D6D6;
+    background-color: #F9F6EE;
     font-family: 'Montserrat';
-    font-size: 24px;
-    color: #000000;
+    color: #050505;
     margin: 0;
     padding: 0;
 }
@@ -19,11 +18,6 @@ header {
     display: flex;
     position: fixed;
     padding: 10px 225px;
-}
-
-h1 {
-    font-variant: small-caps;
-    word-spacing: 15px;
 }
 
 /*Navigation bar*/
@@ -50,19 +44,29 @@ nav {
     background-color: #D4D6D6;
     cursor: pointer;
     list-style: none;
-    font-size: 125%;
+    font-size: 24px;
     font-weight: 400;
-    color: #D4D6D6;
-    text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
 }
 
 .nav_button:hover {
-    color: #000000;
+    color: #D4D6D6;
+    background-color: #050505;
 }
 
 .nav_button:hover {
     background-color:rgba(0, 0, 0,);
 }
+
+#name {
+    font-variant: small-caps;
+    word-spacing: 15px;
+    font-size: 40px;
+    float: left;
+    font-weight: 900;
+    display: block;
+    text-align: center;  
+}
+
 /*END NAV BAR*/
 /*END HEADER*/
 
@@ -104,6 +108,7 @@ p {
 
 .aboutflex {
     width: auto;
+    font-size: 32px;
 }
 
 .aboutimage {
@@ -131,6 +136,19 @@ p {
     border-bottom: 1px solid black;
 }
 
+.worktext {
+    font-size: 32px;
+}
+
+.titletextbig {
+    font-size: 24px;
+}
+
+.titletext {
+    font-size: 24px;
+    text-align: center;
+}
+
 .work h4 {
     display: flex;
     width: auto;
@@ -140,6 +158,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 1000;
 }
 
 .bigwork img {
@@ -158,6 +177,11 @@ p {
 .smallworkimg li {
     list-style: none;
     display: inline-block;
+    background-color: #D4D6D6;
+}
+
+.smallworkimg p {
+    background-color: #D4D6D6;
 }
 
 .smallworkimg img {
@@ -166,8 +190,16 @@ p {
     border: 2px solid black;
 }
 
-#hrp {
+#animag {
     margin-left: 120px;
+}
+
+#workds:hover {
+    opacity: .5;
+}
+
+#rpgen:hover {
+    opacity: .5;
 }
 
 /*Footer*/
@@ -179,8 +211,8 @@ footer {
 }
 .contact {
     width: 80%;
+    font-size: 32px;
 }
-
 
 .contact li {
     list-style: none;
@@ -196,18 +228,15 @@ footer {
     border: none;
     cursor: pointer;
     font-weight: 400;
-
+    font-size: 24px;
+    background-color: #D4D6D6;
  }
 
+ .footerbutton:hover {
+     color: #D4D6D6;
+     background-color: #050505;
+ }
 
-/*Id's section*/
-#name {
-    float: left;
-    font-size: 200%;
-    font-weight: 900;
-    display: block;
-    text-align: center;  
-}
 
 /*MEDIA SECTION FOR OTHER DEVICES*/
 
