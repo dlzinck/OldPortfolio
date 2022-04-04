@@ -114,6 +114,7 @@ p {
 .aboutimage {
     display: flex;
     margin: auto;
+    padding-top: 25px;
  }
 
  .aboutimage img {
