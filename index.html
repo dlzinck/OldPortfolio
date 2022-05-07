@@ -2,111 +2,394 @@
 <html lang="en">
 
 <head>
-    <title>Drew's Portfolio</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/reset.css">
-    <link rel="stylesheet" href="./assets/CSS/portfolio.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio - v4.7.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1 id="name">Drew Lane Zinck II</h1>
-            <ul class="nav_links">
-                <li><a href="#aboutmebutton"><button class="nav_button">about</button></a></li>
-                <li><a href="#workbutton"><button class="nav_button">work</button></a></li>
-                <li><a href="#contactbutton"><button class="nav_button">contact</button></a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <br><br><br>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
+      <h1 class="logo"><a href="index.html">Welcome</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-    <section id="aboutmebutton" class="aboutme">
-        <div class="aboutimage">
-            <img src="./assets/Images/QJVQE9307.JPG" alt="Picture of me">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">I am Drew Zinck II</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Student, Designer, Developer, Googler"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
-        <div class="aboutflex">
-            <h2>about</h2>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
 
-            <br>
+  <main id="main">
 
-            <h4>I am a full-stack web developer based in booming Surprise, Arizona.</h4>
-
-            <br>
-
-            <p>
-                I graduated from the University of Arizona Coding Boot Camp in May of 2022 and set off to begin my new
-                passion of coding and design.
-                When I am not locked into my work you can find me cooking, playing with my dog Scarlett or grinding away
-                in one of my many video game passions.
-            </p>
-        </div>
-    </section>
-
-    <br>
-
-    <section id="workbutton" class="work">
-        <div>
-            <div class="worktext">
-                <h2>work</h2>
-                <br>
-                <h4>
-                    These projects were started, worked on, and updated as I went through the University of Arizona’s
-                    Full-Stack Boot Camp.
-                    Everytime I learned something new or had an idea come to mind I would always go back and make the
-                    changes to create more eloquent and efficient code.
-                </h4>
-            </div>
-            <br><br>
-            <div class="workimages">
-                <div class="bigwork">
-                    <ul>
-                        <li>
-                            <p class="titletextbig">AniMagProject</p><a
-                                href="https://supbake.github.io/group_project_one/"><img id="big"
-                                    src="./assets/Images/AniMagProject.png" alt="AniMag Project"></a>
-                        </li>
-                    </ul>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/myimage.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Drew Zinck II</span></p>
+                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>drew.zshell@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(724) 562-0274</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>HTML</span> <span class="pull-right">85%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>CSS3</span> <span class="pull-right">70%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>JAVASCRIPT</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
                 </div>
-                <br>
-                <div class="smallwork">
-                    <ul class="smallworkimg">
-                        <li>
-                            <p class="titletext">Work Day Scheduler</p><a
-                                href="https://dlzinck.github.io/Work_Day_Scheduler/"><img id="workds"
-                                    src="./assets/Images/WorkDayScheduler.png" alt="WorkDayScheduler"></a>
-                        </li>
-                        <li>
-                            <p class="titletext">Password Generator</p><a
-                                href="https://dlzinck.github.io/Password_Generator/"><img id="rpgen"
-                                    src="./assets/Images/RandomPasswordGen.png" alt="RandomPasswordGen"></a>
-                        </li>
-                        <li><img id="small-3" src="./assets/Images/comingsoon-1.jpg" alt="Coming soon Placeholder"></li>
-                        <li><img id="small-4" src="./assets/Images/comingsoon-1.jpg" alt="Coming soon Placeholder"></li>
-                    </ul>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Former trucker turned developer. Learn to code right? I am currently enrolled in the 
+                      University of Arizona Full-Stack program where our instructors teach us the latest 
+                      industry-driven full-stack curriculum.
+                    </p>
+                    <p class="lead">
+                      Since 2016 I have driven an 18 wheeler across the United States delivering freight and
+                      customer service. That all changed in early 2022 once I began my journey into a new career
+                      as a developer.
+                    </p>
+                    <p class="lead">
+                      Instead of driving on the open road in my captain's chair I now use a different kind of chair,
+                      Secret Labs to be exact. I spend a lot of time learning about this new career path and developing 
+                      the skills needed to excel wherever my path takes me. When I’m not in my new captain’s chair I’ll 
+                      spend my time reading, playing the ocasional video games, going to the gym, and yeah I still go 
+                      on the occasional long drive.
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <footer>
-        <div id="contactbutton" class="contact">
-            <h2>contact</h2>
+      </div>
+    </section><!-- End About Section -->
 
-            <ul class="contactlinks">
-                <li><a href="mailto:dlzincktheii@gmail.com"><button class="footerbutton">Email</button></a></li>
-                <li><a href="https://github.com/dlzinck"><button class="footerbutton">GitHub</button></a></li>
-                <li><a
-                        href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:be64849c-5506-3183-bbb8-239b103e7740"><button
-                            class="footerbutton">Resume</button></a></li>
-                <li><a href="https://www.linkedin.com/in/drewzinckii/"><button
-                            class="footerbutton">LinkedIn</button></a></li>
-            </ul>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Projects and Challenges
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
         </div>
-    </footer>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/RandomPasswordGen.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/RandomPasswordGen.png" alt="RandomPasswordGen" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Random Password Generator</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Program</span> / <span class="w-date">15 Mar. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://dlzinck.github.io/Password_Generator/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/WorkDayScheduler.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/WorkDayScheduler.png" alt="WorkDayScheduler" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Work Day Scheduler</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Calander Application</span> / <span class="w-date">23 Mar. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://dlzinck.github.io/Work_Day_Scheduler/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/notetaker.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/notetaker.png" alt="NoteTakerApp" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Note Taker</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Note Application</span> / <span class="w-date">13 Apr. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://afternoon-garden-55268.herokuapp.com/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/e-commerce-back-end.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/e-commerce-back-end.jpg" alt="e-CommerceBackEnd" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">E-Commerce Back End</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">21 Apr. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/dlzinck/E-Commerce_Back_End"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/AniMag.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/AniMag.jpg" alt="AniMag" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">AniMag - First Project Experience</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Team Project</span> / <span class="w-date">30 Mar. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://supbake.github.io/group_project_one/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/ChampionsRift.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/ChampionsRift.jpg" alt="ChampionsRift" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Champions Rift - Second Project Experience</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Project</span> / <span class="w-date">29 Apr. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://lit-island-76239.herokuapp.com/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/Teabackground.webp)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Collaboration ideas or questions? Give me a call or text and I’ll be glad to reach back out as soon as I can!
+                        <br><br>
+                        If email is more your speed then shoot me an email with your information and questions!
+                        <br><br>
+                        I am always trying to learn and grow as a new developer. Any opportunity I have to grow and gain experience will always be welcome!
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-phone"></span> (724) 562-0274</li>
+                        <li><span class="bi bi-envelope"></span> drew.zshell@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://docs.google.com/document/d/1PE-DA8KNrZ1Icc3aM56uDKjufdGmuo2IOnZAy16y_VQ/edit?usp=sharing"><span class="ico-circle"><i class="bi bi-file-person"></i></span></a></li>
+                        <li><a href="https://github.com/dlzinck"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
+                        <li><a href="https://twitter.com/DrewZshell"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/drewzinckii/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">Let's code together!</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
-
 </html>
